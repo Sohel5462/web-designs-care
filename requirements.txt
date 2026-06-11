@@ -1,0 +1,48 @@
+# ================================================================
+# Web Designs & Care v2.0 — Python Dependencies
+# ================================================================
+# Install all packages (PC):
+#   pip install -r requirements.txt
+#
+# Pydroid3 (Android) — install one by one in terminal:
+#   pip install Flask==3.0.3
+#   pip install Flask-Cors==4.0.1
+#   pip install SQLAlchemy==2.0.31
+#   pip install PyJWT==2.8.0
+#   pip install Werkzeug==3.0.3
+# ================================================================
+
+# ── Required (core app) — install these first ────────────────────
+Flask==3.0.3
+Flask-Cors==4.0.1
+SQLAlchemy==2.0.31
+PyJWT==2.8.0
+Werkzeug==3.0.3
+
+# ── Optional: MySQL support ──────────────────────────────────────
+# pip install PyMySQL==1.1.1
+
+# ── Optional: PostgreSQL support ─────────────────────────────────
+# pip install psycopg2-binary==2.9.9
+
+# ── Optional: Stripe payments ────────────────────────────────────
+# Enable in Admin > Settings > stripeEnabled = true, then:
+# pip install stripe==10.3.0
+
+# ── Optional: .env file support ──────────────────────────────────
+# pip install python-dotenv==1.0.1
+
+# ── Optional: Excel/XLSX import ──────────────────────────────────
+# pip install openpyxl==3.1.5
+
+# ── Optional: PowerPoint generation ──────────────────────────────
+# pip install python-pptx==1.0.2
+
+gunicorn==23.0.0
+python-dotenv==1.0.1
+openpyxl==3.1.5
+python-pptx==1.0.2
+lxml==5.2.2
+stripe==10.3.0
+PyMySQL==1.1.1
+psycopg2-binary==2.9.9
